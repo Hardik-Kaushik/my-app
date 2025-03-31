@@ -39,7 +39,7 @@ const EventHeader = () => {
         {/* Event Details */}
         <div className="px-12 py-12 text-center">
           <h2 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-            CODE 2.0
+            CODEDOC 2.0
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             An Innovative Coding Challenge Presented by IEEE Industry Applications Society and Power & Energy Society

@@ -13,43 +13,43 @@ const EventDetailedTimeline = () => {
       time: "9:30 am - 10:00 am",
       title: "Introduction",
       icon: <UserCheck className="w-6 h-6 text-green-500" />,
-      description: "Rules explanation and event briefing"
+      description: "Rules Explanation and Event Briefing"
     },
     {
       time: "10:00 am - 12:00 pm",
       title: "Coding Round",
       icon: <Code className="w-6 h-6 text-purple-500" />,
-      description: "HackerRank challenge with mixed difficulty"
+      description: "HackerRank challenge with Mixed Difficulty"
     },
     {
       time: "12:00 pm - 1:30 pm",
       title: "Lunch Break",
       icon: <Utensils className="w-6 h-6 text-red-500" />,
-      description: "Refreshment and networking"
+      description: "Refreshment and Networking"
     },
     {
       time: "2:00 pm - 3:00 pm",
       title: "Track Selection",
       icon: <Laptop className="w-6 h-6 text-yellow-500" />,
-      description: "Teams assigned based on leaderboard"
+      description: "Teams assigned based on Leaderboard"
     },
     {
       time: "3:00 pm - 7:00 pm",
       title: "Ideation & Coding",
       icon: <Code className="w-6 h-6 text-indigo-500" />,
-      description: "Project development phase"
+      description: "Project Development Phase"
     },
     {
       time: "6:00 pm",
       title: "Review 0",
       icon: <VideoIcon className="w-6 h-6 text-pink-500" />,
-      description: "Initial project review"
+      description: "Initial Project Review"
     },
     {
       time: "7:00 pm - 8:30 pm",
       title: "Dinner Break",
       icon: <Utensils className="w-6 h-6 text-orange-500" />,
-      description: "Evening meal and relaxation"
+      description: "Evening Meal and Relaxation"
     }
   ];
 
@@ -58,19 +58,19 @@ const EventDetailedTimeline = () => {
       time: "11:00 am",
       title: "Review 1",
       icon: <VideoIcon className="w-6 h-6 text-pink-500" />,
-      description: "Online project review"
+      description: "Online Project Review"
     },
     {
       time: "2:00 pm",
       title: "Qualification Announcement",
       icon: <UserCheck className="w-6 h-6 text-green-500" />,
-      description: "Qualifying teams list on WhatsApp"
+      description: "Qualifying Teams List on WhatsApp"
     },
     {
       time: "4:30 pm - 7:00 pm",
       title: "Final Presentation",
       icon: <Laptop className="w-6 h-6 text-blue-500" />,
-      description: "Concluding project presentations"
+      description: "Concluding Project Presentations"
     }
   ];
 
@@ -135,7 +135,7 @@ const EventDetailedTimeline = () => {
               <strong>Venue & Funds:</strong> IEEE IAS
             </div>
             <div>
-              <strong>Sponsors:</strong> IEEE – PES
+              <strong>Sponsors:</strong> IEEE PES
             </div>
           </div>
         </div>
