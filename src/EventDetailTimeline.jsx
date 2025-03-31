@@ -121,24 +121,6 @@ const EventDetailedTimeline = () => {
         <div>
           {renderTimeline(dayTwoEvents, "Day 2", 2)}
         </div>
-
-        <div className="mt-12 bg-gray-800/60 p-6 rounded-xl">
-          <h4 className="text-xl font-semibold text-white mb-4">Technical Details</h4>
-          <div className="grid grid-cols-2 gap-4 text-gray-300">
-            <div>
-              <strong>Website Editing:</strong> Technical Team
-            </div>
-            <div>
-              <strong>Design:</strong> Instagram Grid & Stories
-            </div>
-            <div>
-              <strong>Venue & Funds:</strong> IEEE IAS
-            </div>
-            <div>
-              <strong>Sponsors:</strong> IEEE PES
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
