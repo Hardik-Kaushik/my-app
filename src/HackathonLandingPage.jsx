@@ -18,7 +18,7 @@ const HackathonLandingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white font-sans">
+    <div className="min-h-screen gap-y-24 mt-16 flex flex-col text-white font-sans">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-md shadow-lg">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">

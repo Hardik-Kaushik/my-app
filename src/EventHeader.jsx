@@ -1,62 +1,39 @@
 import React from 'react';
 import { MapPin, Calendar, Mail } from 'lucide-react';
 import pes from './assets/pes.svg';
-// import vit from './assets/vit.svg';
-// import ias from './assets/ias.svg';
+import vit from './assets/vit.svg';
+import ias from './assets/ias.svg';
 
 const EventHeader = () => {
   return (
     <header className="container mx-auto pt-16 px-6">
-      <div className="max-w-6xl mx-auto bg-gradient-to-br from-gray-900/80 to-gray-900/60 
-        backdrop-blur-xl 
+      <div className="max-w-6xl mx-auto bg-black/40 backdrop-blur-md
         rounded-3xl 
-        border border-gray-700/50 
+        border border-white/40
         shadow-2xl 
         overflow-hidden">
         {/* Logo Section */}
-        <div className="flex justify-between items-center p-6 border-b border-gray-700/30">
-          <div className="flex items-center space-x-6">
-            {/* VIT Logo */}
-            <div className="bg-white rounded-full p-2 shadow-lg">
+        <div className="flex justify-between items-center px-6 py-4 border-b border-gray-700/30">
+            {/* VIT Logo */} 
               <img 
-                src={pes} 
+                src={vit} 
                 alt="VIT Logo" 
-                className="w-20 h-20 object-contain"
+                className="w-auto h-full max-h-16 object-contain"
               />
-            </div>
             
             {/* IEEE Logos */}
             <div className="flex space-x-4">
-              <div className="bg-white rounded-full p-2 shadow-lg">
                 <img 
-                  src={pes}
+                  src={ias}
                   alt="IEEE IAS Logo" 
-                  className="w-16 h-16 object-contain"
+                  className="w-auto h-24 object-contain"
                 />
-              </div>
-              <div className="bg-white rounded-full p-2 shadow-lg">
                 <img 
                   src={pes} 
                   alt="IEEE PES Logo" 
-                  className="w-16 h-16 object-contain"
+                  className="w-auto h-24 object-contain"
                 />
-              </div>
             </div>
-          </div>
-          
-          {/* Social Media Links */}
-          <div className="flex space-x-4">
-            <a href="mailto:events.sw@vit.ac.in" className="text-gray-400 hover:text-white transition-colors">
-              <Mail className="w-6 h-6" />
-            </a>
-            <a href="https://www.instagram.com/ieeeiasvit" className="text-gray-400 hover:text-white transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-            </a>
-          </div>
         </div>
 
         {/* Event Details */}
@@ -82,7 +59,7 @@ const EventHeader = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="bg-gray-800/60 p-6 text-center">
+        <div className="border-t border-gray-700/30 p-6 text-center">
           <div className="flex justify-center space-x-8 text-gray-300 mb-2">
             <div>
               <span className="font-semibold text-green-500 mr-2">Coordinator:</span> 
