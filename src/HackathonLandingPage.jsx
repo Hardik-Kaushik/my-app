@@ -54,24 +54,38 @@ const HackathonLandingPage = () => {
         <EventHeader />
 
         {/* About Section */}
-        <section ref={aboutRef} className="container mx-auto px-6 py-16 bg-gray-900/50 backdrop-blur-md">
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-4xl font-bold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">About the Event</h3>
-            <div className="bg-gray-800/60 p-8 rounded-xl shadow-2xl border border-gray-700/50">
-              <p className="text-xl text-gray-200 leading-relaxed mb-6 font-light tracking-wide">
-                CodeDoc Hackathon is an electrifying coding and problem-solving event where innovation meets technical excellence! Designed for passionate developers, competitive programmers, and tech enthusiasts, this hackathon challenges participants to solve complex algorithmic problems, optimize solutions, and build innovative projects.
-              </p>
-              <div className="space-y-2 mt-8">
-                <h4 className="text-xl font-semibold mb-4 text-green-400">Rules & Guidelines</h4>
-                <ul className="space-y-3">
-                  <li className="flex items-start"><span className="text-blue-400 text-xl font-bold mr-3">•</span> <span className="text-gray-200 text-lg">Each team must have 2 to 4 members.</span></li>
-                  <li className="flex items-start"><span className="text-blue-400 text-xl font-bold mr-3">•</span> <span className="text-gray-200 text-lg">All projects must be original. Plagiarism or copying will lead to disqualification.</span></li>
-                  <li className="flex items-start"><span className="text-blue-400 text-xl font-bold mr-3">•</span> <span className="text-gray-200 text-lg">All coding, ideation and submission deadlines must be strictly followed.</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+<section ref={aboutRef} className="container mx-auto px-6 py-16 bg-gray-900/50 backdrop-blur-md">
+  <div className="max-w-4xl mx-auto text-center">
+    <h3 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+      About the Event
+    </h3>
+    <div className="bg-gray-800/60 p-8 rounded-xl shadow-2xl border border-gray-700/50">
+      <p className="text-xl text-gray-200 leading-relaxed mb-6 font-light tracking-wide text-center">
+        CodeDoc 2.0 is the second edition of IEEE IAS’s flagship hackathon, CodeDoc—a high-energy coding battleground where logic meets speed, and innovation takes the spotlight. This time, IEEE IAS and IEEE PES come together to present an even bigger, bolder, and more challenging edition.
+        <br></br><br></br>
+        This hackathon isn’t just about coding; it’s about solving real-world problems, optimizing solutions, and pushing the boundaries of technical excellence. Whether you're a seasoned programmer or an aspiring developer, CodeDoc 2.0 is your chance to build, collaborate, and outcode the competition.
+        <br></br><br></br>
+      </p>
+      <div className="space-y-3 text-left text-xl text-gray-200 mb-6">
+        <p className="flex items-center justify-center"><span className="text-blue-400 text-2xl mr-3">🔹</span> <span>Competitive Coding Meets Innovation – Solve algorithmic challenges and apply your problem-solving skills.</span></p>
+        <p className="flex items-center justify-center"><span className="text-blue-400 text-2xl mr-3">🔹</span> <span>Hack, Build, and Pitch – Develop impactful solutions and showcase them to industry experts.</span></p>
+        <p className="flex items-center justify-center"><span className="text-blue-400 text-2xl mr-3">🔹</span> <span>Real-World Challenges – Work on projects that can create meaningful change.</span></p>
+      </div>
+      <p className="text-xl text-gray-200 leading-relaxed font-light tracking-wide text-center">
+        Get ready to think fast, code smart, and innovate fearlessly—because only the best will rise to claim the ultimate coding crown! 🚀
+      </p>
+      <div className="space-y-2 mt-8">
+        <h4 className="text-xl font-semibold mb-4 text-green-400">Rules & Guidelines</h4>
+        <ul className="space-y-3 text-center flex flex-col items-center">
+          <li className="flex items-start justify-center"><span className="text-blue-400 text-xl font-bold mr-3">•</span> <span className="text-gray-200 text-lg">Each team must have 2 to 4 members.</span></li>
+          <li className="flex items-start justify-center"><span className="text-blue-400 text-xl font-bold mr-3">•</span> <span className="text-gray-200 text-lg">All projects must be original. Plagiarism or copying will lead to disqualification.</span></li>
+          <li className="flex items-start justify-center"><span className="text-blue-400 text-xl font-bold mr-3">•</span> <span className="text-gray-200 text-lg">All coding, ideation and submission deadlines must be strictly followed.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* Timeline Section */}
         <section ref={timelineRef} className="container mx-auto px-6 py-16">
