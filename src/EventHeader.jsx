@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Calendar, Mail } from 'lucide-react';
 import pes from './assets/pes.svg';
 import vit from './assets/vit.svg';
-import ias from './assets/ias.svg';
+import ias from './assets/IAS-logo-shadowbg.svg';
 
 const EventHeader = () => {
   return (
