@@ -57,6 +57,7 @@ const EventHeader = () => {
           </p>
         </div>
       </div>
+      <br></br><br></br>
     </header>
   );
 };
